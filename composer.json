@@ -1,5 +1,5 @@
 {
-  "name": "AjitT-dev/php-style-standards",
+  "name": "ajit-t-dev/php-style-standards",
   "description": "Ajit's shared PHP style rules for PHP-CS-Fixer",
   "license": "MIT",
   "require": {
