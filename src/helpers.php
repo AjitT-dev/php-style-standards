@@ -10,7 +10,7 @@ function styles(Finder $finder, array $rules = []): Config {
 
   return Config::create()
     ->setFinder($finder)
-    ->setRiskyAllowed(false)
+    ->setRiskyAllowed(true)
     ->setRules($rules);
 }
 
