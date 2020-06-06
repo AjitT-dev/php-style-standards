@@ -6,10 +6,10 @@ This is built on top of Laravel PHP CS Fixer package inorder to share your codin
 * Common repo to store, share across projects
 
 ### Versions and Compatability 
-Refer required versions of Laravel PHP CS Fixer[here](https://github.com/stechstudio/Laravel-PHP-CS-Fixer)
+Refer required versions of Laravel PHP CS Fixer [here](https://github.com/stechstudio/Laravel-PHP-CS-Fixer)
 
 ### Installation
-Add the following in your `composer.json`
+* Add the following in your `composer.json`
 ```
 "repositories": [
         {
@@ -18,17 +18,21 @@ Add the following in your `composer.json`
         }
     ]
 ```    
-Now require the package as a --dev dependency
+* Now require the package as a --dev dependency
 
-`composer require ajit-t-dev/php-style-standards --dev`
+```
+composer require ajit-t-dev/php-style-standards --dev
+```
 
 ### Setup
 
-PHP-CS-Fixer is going to expect your configuration to be in a /.php_cs.dist file, so we’ll create that.
+* PHP-CS-Fixer is going to expect your configuration to be in a /.php_cs.dist file, so we’ll create that.
 
-`touch .php_cs.dist`
+```
+touch .php_cs.dist
+```
 
-Open this file and add the following finder setup for your Laravel app. You can include any other folders you would like fixed as well, but these serve as reasonable defaults.
+* Open this file and add the following finder setup for your Laravel app. You can include any other folders you would like fixed as well, but these serve as reasonable defaults.
 ```
 <?php
  $finder = PhpCsFixer\Finder::create()
